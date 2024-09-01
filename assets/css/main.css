@@ -3880,3 +3880,39 @@ input, select, textarea {
 		}
 
 	}
+
+	#team {
+		text-align: center;
+		padding: 50px 0;
+	}
+	
+	.team-member {
+		display: inline-block;
+		width: 30%;
+		margin: 0 10px;
+		text-align: center;
+	}
+	
+	.team-member img {
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+	}
+	
+	.team-member h3 {
+		margin: 15px 0 5px;
+	}
+	
+	.team-member p {
+		font-size: 14px;
+		color: #666;
+	}
+
+	.team-member .info-person {
+		display: block;
+		margin-top: 10px;
+		font-size: 13px;
+		color: #444;
+	}
+	
